@@ -12,11 +12,7 @@
                     "recordId": {},
                     "title": {},
                     "status": {},
-                    "defaultLocale": {
-                        "language": false,
-                        "characterSet": false,
-                        "country": false
-                    }
+                    "defaultLocale": false
                 },
                 "resourceType": {
                     "resourceType": false,
@@ -1409,7 +1405,7 @@
             {
                 "title": "Metadata",
                 "target": "record.show.edit.metadata",
-                "tip": "Information about the metadata for the project."
+                "tip": "Metadata Metadata"
             }
         ]
     }
