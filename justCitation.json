@@ -14,10 +14,7 @@
                     "status": {},
                     "defaultLocale": false
                 },
-                "resourceType": {
-                    "resourceType": false,
-                    "name": false
-                },
+                "resourceType": false,
                 "pointOfContact": false,
                 "citation": {
                     "basicInformation": {
