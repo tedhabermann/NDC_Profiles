@@ -11,7 +11,8 @@
                 "basicInformation": {
                     "recordId": {},
                     "title": {},
-                    "status": {}
+                    "status": {},
+                    "defaultLocale": false
                 },
                 "resourceType": {
                     "resourceType": false,
