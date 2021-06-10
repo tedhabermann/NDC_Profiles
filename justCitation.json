@@ -130,10 +130,6 @@
                         }
                     }
                 },
-                "description": {
-                    "abstract": false,
-                    "shortAbstract": false
-                },
                 "purpose": false,
                 "supplementalInfo": false,
                 "environmentDescription": false,
