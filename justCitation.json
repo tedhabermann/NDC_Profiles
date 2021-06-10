@@ -131,28 +131,7 @@
                 "purpose": false,
                 "supplementalInfo": false,
                 "environmentDescription": false,
-                "timePeriod": {
-                    "dateRange": {
-                        "start": false,
-                        "end": false,
-                        "fiscalyear": false
-                    },
-                    "identifier": false,
-                    "description": false,
-                    "periodName": false,
-                    "interval": {
-                        "intervalAmount": false,
-                        "units": false
-                    },
-                    "duration": {
-                        "years": false,
-                        "months": false,
-                        "days": false,
-                        "hours": false,
-                        "minutes": false,
-                        "seconds": false
-                    }
-                },
+                "timePeriod": false,
                 "maintenance": {
                     "frequency": false,
                     "dates": {
