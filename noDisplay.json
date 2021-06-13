@@ -1,9 +1,9 @@
 {
     "identifier": "noDisplay",
-    "namespace": "gov.usgs.ndc.profile",
+    "namespace": "gov.usgs.ndc",
     "alternateId": ["noDisplay"],
-    "title": "No Dzisplay",
-    "description": "A profile no copntent displayed",
+    "title": "No Display",
+    "description": "A profile no content displayed",
     "version": "0.0.0",
     "components": {
         "record": {
@@ -1440,28 +1440,6 @@
                 "title": "Associated",
                 "target": "record.show.edit.associated",
                 "tip": "Other resources with a defined relationship to the resource."
-            }
-        ],
-        "dictionary": [
-            {
-                "title": "Main",
-                "target": "dictionary.show.edit.index",
-                "tip": "Basic information about the dictionary."
-            },
-            {
-                "title": "Citation",
-                "target": "dictionary.show.edit.citation",
-                "tip": "The citation for the dictionary."
-            },
-            {
-                "title": "Domains",
-                "target": "dictionary.show.edit.domain",
-                "tip": "Information about defined value lists."
-            },
-            {
-                "title": "Entities",
-                "target": "dictionary.show.edit.entity",
-                "tip": "Information about entities(tables) and attributes(columns or fields)."
             }
         ]
     }
