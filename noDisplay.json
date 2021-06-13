@@ -3,13 +3,13 @@
     "namespace": "gov.usgs.ndc",
     "alternateId": ["noDisplay"],
     "title": "No Display",
-    "description": "A profile no content displayed",
+    "description": "A profile with no content displayed",
     "version": "0.0.0",
     "components": {
         "record": {
             "main": {
                 "basicInformation": {
-                    "recordId": false,
+                    "recordId": {},
                     "title": false,
                     "status": false,
                     "defaultLocale": {
