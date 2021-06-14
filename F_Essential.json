@@ -1,9 +1,9 @@
 {
-    "identifier": "noDisplay",
+    "identifier": "F_Essential",
     "namespace": "gov.usgs.ndc",
-    "alternateId": ["noDisplay"],
-    "title": "No Display",
-    "description": "A profile with no content displayed",
+    "alternateId": ["F_Essential"],
+    "title": "DataCite Findable Essential",
+    "description": "Elements essential for DataCite Findability.",
     "version": "0.0.0",
     "components": {
         "record": {
