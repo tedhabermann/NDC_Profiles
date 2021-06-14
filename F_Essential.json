@@ -8,16 +8,7 @@
     "components": {
         "record": {
             "main": {
-                "basicInformation": {
-                    "recordId": false,
-                    "title": false,
-                    "status": false,
-                    "defaultLocale": {
-                        "language": false,
-                        "characterSet": false,
-                        "country": false
-                    }
-                },
+                "basicInformation": false,
                 "resourceType": {
                     "resourceType": {},
                     "name": false
