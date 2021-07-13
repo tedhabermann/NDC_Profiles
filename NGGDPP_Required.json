@@ -2,7 +2,7 @@
     "identifier": "NGGDPP_Required",
     "namespace": "gov.usgs.ndc",
     "alternateId": [
-        "noDisplay"
+        "NGGDPP_Required"
     ],
     "title": "NGGDPP_Required",
     "description": "A profile with elements required for NGGDPP Colections.",
@@ -11,18 +11,18 @@
         "record": {
             "main": {
                 "basicInformation": {
-                    "recordId": false,
-                    "title": false,
-                    "status": false,
+                    "recordId": {},
+                    "title": {},
+                    "status": {},
                     "defaultLocale": {
-                        "language": false,
-                        "characterSet": false,
-                        "country": false
+                        "language": {},
+                        "characterSet": {},
+                        "country": {}
                     }
                 },
                 "resourceType": {
-                    "resourceType": false,
-                    "name": false
+                    "resourceType": {},
+                    "name": {}
                 },
                 "pointOfContact": {},
                 "citation": {
@@ -57,85 +57,13 @@
                         "namespace": {},
                         "version": false,
                         "description": {},
-                        "authority": {
-                            "basicInformation": {
-                                "title": false,
-                                "alternateTitle": false,
-                                "date": false,
-                                "dateArray": {
-                                    "date": false,
-                                    "dateType": false,
-                                    "description": false
-                                }
-                            },
-                            "responsibleParty": {
-                                "role": false,
-                                "contacts": false
-                            },
-                            "onlineResource": {
-                                "name": false,
-                                "url": false,
-                                "protocol": false,
-                                "description": false,
-                                "onlineFunction": false,
-                                "applicationProfile": false,
-                                "protocolRequest": false
-                            },
-                            "identifier": false,
-                            "identifierSimple": {
-                                "identifier": false,
-                                "namespace": false,
-                                "version": false,
-                                "description": false
-                            },
-                            "identifierShort": {
-                                "identifier": false,
-                                "namespace": false,
-                                "version": false,
-                                "description": false
-                            }
-                        }
+                        "authority": false
                     },
-                    "identifierSimple": {
-                        "identifier": false,
-                        "namespace": false,
-                        "version": false,
-                        "description": false,
-                        "authority": {
-                            "basicInformation": {
-                                "title": false,
-                                "alternateTitle": false,
-                                "date": false,
-                                "dateArray": false
-                            },
-                            "responsibleParty": false,
-                            "onlineResource": false,
-                            "identifier": false,
-                            "identifierSimple": false,
-                            "identifierShort": false
-                        }
-                    },
+                    "identifierSimple": false,
                     "identifierShort": false,
-                    "series": {
-                        "name": false,
-                        "issue": false,
-                        "page": false
-                    },
+                    "series": false,
                     "otherCitationDetails": {},
-                    "graphic": {
-                        "fileName": false,
-                        "fileType": false,
-                        "fileDescription": false,
-                        "onlineResource": {
-                            "name": false,
-                            "url": false,
-                            "protocol": false,
-                            "description": false,
-                            "onlineFunction": false,
-                            "applicationProfile": false,
-                            "protocolRequest": false
-                        }
-                    }
+                    "graphic": false
                 },
                 "description": {
                     "abstract": {},
@@ -153,49 +81,11 @@
                     "identifier": false,
                     "description": false,
                     "periodName": false,
-                    "interval": {
-                        "intervalAmount": false,
-                        "units": false
-                    },
-                    "duration": {
-                        "years": false,
-                        "months": false,
-                        "days": false,
-                        "hours": false,
-                        "minutes": false,
-                        "seconds": false
-                    }
+                    "interval": false,
+                    "duration": false
                 },
-                "maintenance": {
-                    "frequency": false,
-                    "dates": {
-                        "dateItem": {
-                            "date": false,
-                            "dateType": false,
-                            "description": false
-                        }
-                    },
-                    "contact": {
-                        "role": false,
-                        "contacts": false
-                    },
-                    "note": false,
-                    "scope": false
-                },
-                "graphicOverview": {
-                    "fileName": false,
-                    "fileType": false,
-                    "fileDescription": false,
-                    "onlineResource": {
-                        "name": false,
-                        "url": false,
-                        "protocol": false,
-                        "description": false,
-                        "onlineFunction": false,
-                        "applicationProfile": false,
-                        "protocolRequest": false
-                    }
-                },
+                "maintenance": false,
+                "graphicOverview": false,
                 "credit": false
             },
             "metadata": {
@@ -215,228 +105,23 @@
                 },
                 "metadataIdentifier": {
                     "identifier": {},
-                    "namespace": false,
+                    "namespace": {},
                     "version": false,
-                    "description": false,
-                    "authority": {
-                        "basicInformation": {
-                            "title": false,
-                            "alternateTitle": false,
-                            "dates": {
-                                "dateItem": {
-                                    "date": false,
-                                    "dateType": false,
-                                    "description": false
-                                }
-                            }
-                        },
-                        "responsibleParty": {
-                            "role": false,
-                            "contacts": false
-                        },
-                        "onlineResource": {
-                            "name": false,
-                            "url": false,
-                            "protocol": false,
-                            "description": false,
-                            "onlineFunction": false,
-                            "applicationProfile": false,
-                            "protocolRequest": false
-                        },
-                        "identifier": false,
-                        "identifierSimple": {
-                            "identifier": false,
-                            "namespace": false,
-                            "version": false,
-                            "description": false,
-                            "authority": {
-                                "basicInformation": {
-                                    "title": false,
-                                    "alternateTitle": false,
-                                    "dates": false
-                                },
-                                "responsibleParty": false,
-                                "onlineResource": false,
-                                "identifier": false,
-                                "identifierSimple": false,
-                                "identifierShort": false
-                            }
-                        },
-                        "identifierShort": false
-                    }
+                    "description": {},
+                    "authority": false
                 },
-                "parentMetadata": {
-                    "basicInformation": {
-                        "title": false,
-                        "alternateTitle": false,
-                        "dates": {
-                            "dateItem": {
-                                "date": false,
-                                "dateType": false,
-                                "description": false
-                            }
-                        },
-                        "edition": false,
-                        "presentationForm": false
-                    },
-                    "responsibleParty": {
-                        "role": false,
-                        "contacts": false
-                    },
-                    "onlineResource": {
-                        "name": false,
-                        "url": false,
-                        "protocol": false,
-                        "description": false,
-                        "onlineFunction": false,
-                        "applicationProfile": false,
-                        "protocolRequest": false
-                    },
-                    "identifier": {
-                        "identifier": false,
-                        "namespace": false,
-                        "version": false,
-                        "description": false,
-                        "authority": {
-                            "basicInformation": {
-                                "title": false,
-                                "alternateTitle": false,
-                                "dates": {
-                                    "dateItem": {
-                                        "date": false,
-                                        "dateType": false,
-                                        "description": false
-                                    }
-                                }
-                            },
-                            "responsibleParty": {
-                                "role": false,
-                                "contacts": false
-                            },
-                            "onlineResource": {
-                                "name": false,
-                                "url": false,
-                                "protocol": false,
-                                "description": false,
-                                "onlineFunction": false,
-                                "applicationProfile": false,
-                                "protocolRequest": false
-                            },
-                            "identifier": false,
-                            "identifierSimple": {
-                                "identifier": false,
-                                "namespace": false,
-                                "version": false,
-                                "description": false,
-                                "authority": {
-                                    "basicInformation": {
-                                        "title": false,
-                                        "alternateTitle": false,
-                                        "dates": false
-                                    },
-                                    "responsibleParty": false,
-                                    "onlineResource": false,
-                                    "identifier": false,
-                                    "identifierSimple": false,
-                                    "identifierShort": false
-                                }
-                            },
-                            "identifierShort": false
-                        }
-                    },
-                    "identifierSimple": false,
-                    "identifierShort": false,
-                    "series": {
-                        "name": false,
-                        "issue": false,
-                        "page": false
-                    },
-                    "otherCitationDetails": false,
-                    "graphic": {
-                        "fileName": false,
-                        "fileType": false,
-                        "fileDescription": false,
-                        "onlineResource": {
-                            "name": false,
-                            "url": false,
-                            "protocol": false,
-                            "description": false,
-                            "onlineFunction": false,
-                            "applicationProfile": false,
-                            "protocolRequest": false
-                        }
-                    }
-                },
+                "parentMetadata": false,
                 "onlineResource": {
-                    "name": false,
-                    "url": false,
+                    "name": {},
+                    "url": {},
                     "protocol": false,
-                    "description": false,
+                    "description": {},
                     "onlineFunction": false
                 },
-                "repositories": {
-                    "repository": false,
-                    "collectionTitle": false
-                },
-                "maintenance": {
-                    "frequency": false,
-                    "dates": {
-                        "dateItem": {
-                            "date": false,
-                            "dateType": false,
-                            "description": false
-                        }
-                    },
-                    "contact": {
-                        "role": false,
-                        "contacts": false
-                    },
-                    "note": false,
-                    "scope": false
-                },
-                "defaultLocale": {
-                    "language": false,
-                    "characterSet": false,
-                    "country": false
-                },
-                "alternateMetadataReference": {
-                    "basicInformation": {
-                        "title": false,
-                        "alternateTitle": false,
-                        "dates": false,
-                        "edition": false,
-                        "presentationForm": false
-                    },
-                    "responsibleParty": false,
-                    "onlineResource": false,
-                    "identifier": {
-                        "identifier": false,
-                        "namespace": false,
-                        "version": false,
-                        "description": false,
-                        "authority": {
-                            "basicInformation": {
-                                "title": false,
-                                "alternateTitle": false,
-                                "dates": false
-                            },
-                            "responsibleParty": false,
-                            "onlineResource": false,
-                            "identifier": false,
-                            "identifierSimple": false,
-                            "identifierShort": false
-                        }
-                    },
-                    "identifierSimple": false,
-                    "identifierShort": false,
-                    "series": {
-                        "name": false,
-                        "issue": false,
-                        "page": false
-                    },
-                    "otherCitationDetails": false,
-                    "graphic": false
-                }
+                "repositories": false,
+                "maintenance": false,
+                "defaultLocale": false,
+                "alternateMetadataReference": false
             },
             "keywords": {
                 "citation": {
@@ -467,70 +152,8 @@
             },
             "spatial": {
                 "spatialRepresentationType": false,
-                "spatialReferenceSystem": {
-                    "referenceSystemType": false,
-                    "referenceSystemIdentifier": {
-                        "identifier": false,
-                        "namespace": false,
-                        "version": false,
-                        "description": false,
-                        "authority": {
-                            "basicInformation": {
-                                "title": false,
-                                "alternateTitle": false,
-                                "dates": {
-                                    "dateItem": {
-                                        "date": false,
-                                        "dateType": false,
-                                        "description": false
-                                    }
-                                }
-                            },
-                            "responsibleParty": {
-                                "role": false,
-                                "contacts": false
-                            },
-                            "onlineResource": {
-                                "name": false,
-                                "url": false,
-                                "protocol": false,
-                                "description": false,
-                                "onlineFunction": false,
-                                "applicationProfile": false,
-                                "protocolRequest": false
-                            },
-                            "identifier": false,
-                            "identifierSimple": {
-                                "identifier": false,
-                                "namespace": false,
-                                "version": false,
-                                "description": false,
-                                "authority": {
-                                    "basicInformation": {
-                                        "title": false,
-                                        "alternateTitle": false,
-                                        "dates": false
-                                    },
-                                    "responsibleParty": false,
-                                    "onlineResource": false,
-                                    "identifier": false,
-                                    "identifierSimple": false,
-                                    "identifierShort": false
-                                }
-                            },
-                            "identifierShort": false
-                        }
-                    }
-                },
-                "spatialResolution": {
-                    "scaleFactor": false,
-                    "levelOfDetail": false,
-                    "measure": {
-                        "type": false,
-                        "value": false,
-                        "units": false
-                    }
-                }
+                "spatialReferenceSystem": false,
+                "spatialResolution": false
             },
             "lineage": {
                 "statement": false,
@@ -760,97 +383,7 @@
                 },
                 "scope": false
             },
-            "taxonomy": {
-                "collection": {
-                    "taxonomicSystem": {
-                        "citation": {
-                            "title": false,
-                            "basicInformation": {
-                                "title": false,
-                                "alternateTitle": false,
-                                "dates": {
-                                    "dateItem": {
-                                        "date": false,
-                                        "dateType": false,
-                                        "description": false
-                                    }
-                                },
-                                "edition": false,
-                                "presentationForm": false
-                            },
-                            "responsibleParty": {
-                                "role": false,
-                                "contacts": false
-                            },
-                            "onlineResource": {
-                                "name": false,
-                                "url": false,
-                                "protocol": false,
-                                "description": false,
-                                "onlineFunction": false,
-                                "applicationProfile": false,
-                                "protocolRequest": false
-                            },
-                            "identifier": false,
-                            "identifierSimple": {
-                                "identifier": false,
-                                "namespace": false,
-                                "version": false,
-                                "description": false,
-                                "authority": {
-                                    "basicInformation": {
-                                        "title": false,
-                                        "alternateTitle": false,
-                                        "dates": false
-                                    },
-                                    "responsibleParty": false,
-                                    "onlineResource": false,
-                                    "identifier": false,
-                                    "identifierSimple": false,
-                                    "identifierShort": false
-                                }
-                            },
-                            "identifierShort": false,
-                            "series": {
-                                "name": false,
-                                "issue": false,
-                                "page": false
-                            },
-                            "otherCitationDetails": false,
-                            "graphic": {
-                                "fileName": false,
-                                "fileType": false,
-                                "fileDescription": false,
-                                "onlineResource": false
-                            }
-                        },
-                        "modifications": false
-                    },
-                    "classification": {
-                        "taxon": {
-                            "taxonomicLevel": false,
-                            "taxonomicName": false,
-                            "taxonomicSystemId": false,
-                            "commonName": false
-                        }
-                    },
-                    "observer": {
-                        "role": false,
-                        "contacts": false
-                    },
-                    "generalScope": false,
-                    "identificationProcedure": false,
-                    "identificationCompleteness": false,
-                    "voucher": {
-                        "specimen": false,
-                        "repository": {
-                            "role": false,
-                            "contacts": false
-                        }
-                    }
-                },
-                "classificationPreview": false
-            },
+            "taxonomy": false,
             "distribution": {
                 "description": false,
                 "liablityStatement": false,
@@ -916,123 +449,18 @@
                     "useConstraint": {},
                     "otherConstraint": {}
                 },
-                "security": {
-                    "classification": false,
-                    "classificationSystem": false,
-                    "note": false,
-                    "handlingDescription": false
-                },
+                "security": false,
                 "responsibleParty": {
                     "role": {},
                     "contacts": {}
                 },
-                "graphic": {
-                    "fileName": false,
-                    "fileType": false,
-                    "fileDescription": false,
-                    "onlineResource": {
-                        "name": false,
-                        "url": false,
-                        "protocol": false,
-                        "description": false,
-                        "onlineFunction": false,
-                        "applicationProfile": false,
-                        "protocolRequest": false
-                    }
-                }
+                "graphic": false
             },
-            "associated": {
-                "associationType": false,
-                "initiativeType": false,
-                "resourceCitation": {
-                    "basicInformation": {
-                        "title": false,
-                        "alternateTitle": false,
-                        "dates": {
-                            "dateItem": {
-                                "date": false,
-                                "dateType": false,
-                                "description": false
-                            }
-                        },
-                        "edition": false,
-                        "presentationForm": false
-                    },
-                    "identifier": false,
-                    "responsibleParty": {
-                        "role": false,
-                        "contacts": false
-                    },
-                    "onlineResource": {
-                        "name": false,
-                        "url": false,
-                        "protocol": false,
-                        "description": false,
-                        "onlineFunction": false,
-                        "applicationProfile": false,
-                        "protocolRequest": false
-                    },
-                    "identifierSimple": {
-                        "identifier": false,
-                        "namespace": false,
-                        "version": false,
-                        "description": false,
-                        "authority": {
-                            "basicInformation": {
-                                "title": false,
-                                "alternateTitle": false,
-                                "dates": false
-                            },
-                            "responsibleParty": false,
-                            "onlineResource": false,
-                            "identifier": false,
-                            "identifierSimple": false,
-                            "identifierShort": false
-                        }
-                    },
-                    "identifierShort": false,
-                    "series": {
-                        "name": false,
-                        "issue": false,
-                        "page": false
-                    },
-                    "otherCitationDetails": false,
-                    "graphic": {
-                        "fileName": false,
-                        "fileType": false,
-                        "fileDescription": false,
-                        "onlineResource": {
-                            "name": false,
-                            "url": false,
-                            "protocol": false,
-                            "description": false,
-                            "onlineFunction": false,
-                            "applicationProfile": false,
-                            "protocolRequest": false
-                        }
-                    }
-                },
-                "resourceType": {
-                    "resourceType": false,
-                    "name": false
-                },
-                "metadataCitation": {
-                    "basicInformation": {
-                        "title": false,
-                        "alternateTitle": false,
-                        "dates": false
-                    },
-                    "responsibleParty": false,
-                    "onlineResource": false,
-                    "identifier": false,
-                    "identifierSimple": false,
-                    "identifierShort": false
-                }
-            },
+            "associated": false,
             "documents": {
                 "resourceType": {
-                    "resourceType": false,
-                    "name": false
+                    "resourceType": {},
+                    "name": {}
                 },
                 "citation": {
                     "basicInformation": {
@@ -1087,321 +515,13 @@
                         "page": false
                     },
                     "otherCitationDetails": false,
-                    "graphic": {
-                        "fileName": false,
-                        "fileType": false,
-                        "fileDescription": false,
-                        "onlineResource": {
-                            "name": false,
-                            "url": false,
-                            "protocol": false,
-                            "description": false,
-                            "onlineFunction": false,
-                            "applicationProfile": false,
-                            "protocolRequest": false
-                        }
-                    }
+                    "graphic": false
                 }
             },
-            "funding": {
-                "fundingPeriod": {
-                    "allocation": {
-                        "amount": false,
-                        "currency": false,
-                        "sourceAllocationId": false,
-                        "source": false,
-                        "recipient": false,
-                        "otherContacts": {
-                            "role": false,
-                            "contacts": false
-                        },
-                        "matching": false,
-                        "comment": false,
-                        "onlineResource": {
-                            "name": false,
-                            "url": false,
-                            "protocol": false,
-                            "description": false,
-                            "onlineFunction": false,
-                            "applicationProfile": false,
-                            "protocolRequest": false
-                        }
-                    },
-                    "description": false,
-                    "timePeriod": {
-                        "dateRange": {
-                            "start": false,
-                            "end": false,
-                            "fiscalyear": false
-                        },
-                        "identifier": false,
-                        "description": false,
-                        "periodName": false,
-                        "interval": {
-                            "intervalAmount": false,
-                            "units": false
-                        },
-                        "duration": {
-                            "years": false,
-                            "months": false,
-                            "days": false,
-                            "hours": false,
-                            "minutes": false,
-                            "seconds": false
-                        }
-                    }
-                }
-            }
+            "funding": false
         },
         "contact": false,
-        "dictionary": {
-            "main": {
-                "basicInformation": {
-                    "title": false,
-                    "subject": false,
-                    "responsibleParty": false,
-                    "description": false,
-                    "included": false,
-                    "functionalLanguage": false
-                },
-                "recommendedUse": false,
-                "locale": false
-            },
-            "citation": {
-                "basicInformation": {
-                    "title": false,
-                    "alternateTitle": false,
-                    "dates": {
-                        "dateItem": {
-                            "date": false,
-                            "dateType": false,
-                            "description": false
-                        }
-                    },
-                    "edition": false,
-                    "presentationForm": false
-                },
-                "responsibleParty": {
-                    "role": false,
-                    "contacts": false
-                },
-                "onlineResource": {
-                    "name": false,
-                    "url": false,
-                    "protocol": false,
-                    "description": false,
-                    "onlineFunction": false
-                },
-                "identifier": {
-                    "identifier": false,
-                    "namespace": false,
-                    "version": false,
-                    "description": false,
-                    "authority": {
-                        "basicInformation": {
-                            "title": false,
-                            "alternateTitle": false,
-                            "dates": false
-                        },
-                        "responsibleParty": false,
-                        "onlineResource": false,
-                        "identifier": false,
-                        "identifierSimple": false,
-                        "identifierShort": false
-                    }
-                },
-                "identifierSimple": false,
-                "identifierShort": false,
-                "series": {
-                    "name": false,
-                    "issue": false,
-                    "page": false
-                },
-                "otherCitationDetails": false,
-                "graphic": {
-                    "fileName": false,
-                    "fileType": false,
-                    "fileDescription": false,
-                    "onlineResource": {
-                        "name": false,
-                        "url": false,
-                        "protocol": false,
-                        "description": false,
-                        "onlineFunction": false,
-                        "applicationProfile": false,
-                        "protocolRequest": false
-                    }
-                }
-            },
-            "entity": {
-                "information": false,
-                "identifier": false,
-                "codeName": false,
-                "definition": false,
-                "commonName": false,
-                "alias": false,
-                "structure": {
-                    "fieldSeparatorCharacter": false,
-                    "numberOfHeaderLines": false,
-                    "quoteCharacter": false
-                },
-                "keys": false,
-                "index": false,
-                "entityReference": {
-                    "basicInformation": false,
-                    "title": false,
-                    "alternateTitle": false,
-                    "date": false,
-                    "edition": false,
-                    "presentationForm": false,
-                    "responsibleParty": false,
-                    "onlineResource": false,
-                    "identifier": false,
-                    "identifierSimple": false,
-                    "identifierShort": false,
-                    "series": {
-                        "name": false,
-                        "issue": false,
-                        "page": false
-                    },
-                    "otherCitationDetails": false,
-                    "graphicOverview": false
-                },
-                "attribute": {
-                    "name": false,
-                    "dataType": false,
-                    "definition": false,
-                    "allowNull": false,
-                    "information": {
-                        "codeName": false,
-                        "definition": false,
-                        "dataType": false,
-                        "allowNull": false,
-                        "commonName": false,
-                        "domain": false,
-                        "alias": false,
-                        "units": false,
-                        "unitsResolution": false,
-                        "caseSensitive": false,
-                        "fieldWidth": false,
-                        "missingValue": false,
-                        "minValue": false,
-                        "maxValue": false
-                    },
-                    "valueRange": false,
-                    "timePeriod": false,
-                    "attributeReference": {
-                        "basicInformation": false,
-                        "title": false,
-                        "alternateTitle": false,
-                        "date": false,
-                        "edition": false,
-                        "presentationForm": false,
-                        "responsibleParty": false,
-                        "onlineResource": false,
-                        "identifier": false,
-                        "identifierSimple": false,
-                        "identifierShort": false,
-                        "series": {
-                            "name": false,
-                            "issue": false,
-                            "page": false
-                        },
-                        "otherCitationDetails": false,
-                        "graphicOverview": false
-                    }
-                },
-                "citation": {
-                    "identifier": {
-                        "identifier": false,
-                        "namespace": false,
-                        "version": false,
-                        "description": false,
-                        "authority": {
-                            "basicInformation": false,
-                            "title": false,
-                            "alternateTitle": false,
-                            "date": false,
-                            "responsibleParty": false,
-                            "onlineResource": false,
-                            "identifier": false,
-                            "identifierSimple": false,
-                            "identifierShort": false
-                        }
-                    }
-                }
-            },
-            "domain": {
-                "information": false,
-                "identifier": false,
-                "codeName": false,
-                "commonName": false,
-                "description": false,
-                "domainReference": false,
-                "citation": {
-                    "identifier": {
-                        "identifier": false,
-                        "namespace": false,
-                        "version": false,
-                        "description": false,
-                        "authority": {
-                            "basicInformation": false,
-                            "title": false,
-                            "alternateTitle": false,
-                            "date": false,
-                            "responsibleParty": false,
-                            "onlineResource": false,
-                            "identifier": false,
-                            "identifierSimple": false,
-                            "identifierShort": false
-                        }
-                    }
-                },
-                "domainItem": {
-                    "name": false,
-                    "value": false,
-                    "definition": false
-                }
-            },
-            "domainItem": {
-                "domainItem": {
-                    "name": false,
-                    "value": false,
-                    "definition": false
-                },
-                "reference": {
-                    "basicInformation": false,
-                    "title": false,
-                    "alternateTitle": false,
-                    "date": false,
-                    "responsibleParty": false,
-                    "onlineResource": false,
-                    "identifier": false,
-                    "identifierSimple": {
-                        "identifier": false,
-                        "namespace": false,
-                        "version": false,
-                        "description": false,
-                        "authority": {
-                            "basicInformation": false,
-                            "title": false,
-                            "alternateTitle": false,
-                            "date": false,
-                            "responsibleParty": false,
-                            "onlineResource": false,
-                            "identifier": false,
-                            "identifierSimple": false,
-                            "identifierShort": false
-                        }
-                    },
-                    "identifierShort": false
-                }
-            },
-            "entitykeys": {
-                "primaryKey": false,
-                "foreignKey": false
-            }
-        }
+        "dictionary": false
     },
     "nav": {
         "record": [
