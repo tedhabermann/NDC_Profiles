@@ -4,8 +4,8 @@
     "alternateId": [
         "noDisplay"
     ],
-    "title": "No Display",
-    "description": "A profile with no content displayed",
+    "title": "NGGDPP_Required",
+    "description": "A profile with elements required for NGGDPP Colections.",
     "version": "0.0.0",
     "components": {
         "record": {
