@@ -1,9 +1,7 @@
 {
     "identifier": "NGGDPP_Required",
     "namespace": "gov.usgs.ndc",
-    "alternateId": [
-        "NGGDPP_Required"
-    ],
+    "alternateId": ["NGGDPP_Required"],
     "title": "NGGDPP_Required",
     "description": "A profile with elements required for NGGDPP Colections.",
     "version": "0.0.0",
@@ -157,9 +155,7 @@
             },
             "lineage": {
                 "statement": false,
-                "processStep": {
-                    "description": false
-                },
+                "processStep": {"description": false},
                 "source": {
                     "description": false,
                     "sourceId": false,
@@ -549,6 +545,28 @@
                 "title": "Constraints",
                 "target": "record.show.edit.constraints",
                 "tip": "Tool tip for constraints"
+            }
+        ],
+        "dictionary": [
+            {
+                "title": "Main",
+                "target": "dictionary.show.edit.index",
+                "tip": "Basic information about the dictionary."
+            },
+            {
+                "title": "Citation",
+                "target": "dictionary.show.edit.citation",
+                "tip": "The citation for the dictionary."
+            },
+            {
+                "title": "Domains",
+                "target": "dictionary.show.edit.domain",
+                "tip": "Information about defined value lists."
+            },
+            {
+                "title": "Entities",
+                "target": "dictionary.show.edit.entity",
+                "tip": "Information about entities(tables) and attributes(columns or fields)."
             }
         ]
     }
