@@ -6,7 +6,7 @@
     ],
     "title": "DataCite Mandatory and Recommended Elements",
     "description": "A profile with mandatory and recommended elements DataCite records.",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "components": {
         "record": {
             "main": {
@@ -186,25 +186,10 @@
                 "tip": "Information describing the bounds of the resource."
             },
             {
-                "title": "Lineage",
-                "target": "record.show.edit.lineage",
-                "tip": "Information on the history of the resource."
-            },
-            {
                 "title": "Distribution",
                 "target": "record.show.edit.distribution",
                 "tip": "Information about obtaining the resource."
             },
-            {
-                "title": "Constraints",
-                "target": "record.show.edit.constraint",
-                "tip": "Information about constraints applied to the resource."
-            },
-            {
-                "title": "Documents",
-                "target": "record.show.edit.documents",
-                "tip": "Other documents related to, but not defining, the resource."
-            }
         ]
     }
 }
