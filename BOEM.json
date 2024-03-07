@@ -15,9 +15,9 @@
                     "title": {},
                     "status": {},
                     "defaultLocale": {
-                        "language": false,
-                        "characterSet": false,
-                        "country": false
+                        "language": {},
+                        "characterSet": {},
+                        "country": {}
                     }
                 },
                 "resourceType": {
