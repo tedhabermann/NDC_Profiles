@@ -123,7 +123,7 @@
                     "contacts": {}
                 },
                 "metadataIdentifier": {
-                    "identifier": false,
+                    "identifier": {},
                     "namespace": false,
                     "version": false,
                     "description": false,
@@ -134,9 +134,9 @@
                 "repositories": false,
                 "maintenance": false,
                 "defaultLocale": {
-                    "language": false,
-                    "characterSet": false,
-                    "country": false
+                    "language": {},
+                    "characterSet": {},
+                    "country": {}
                 },
                 "alternateMetadataReference": false
             },
@@ -151,7 +151,7 @@
                 },
                 "keyword": {
                     "keyword": {},
-                    "identifier": {false}
+                    "identifier": {}
                 }
             },
             "extent": {
@@ -183,9 +183,7 @@
                             "dateItem": {
                                 "date": {},
                                 "dateType": {},
-                                "description": {
-                                    
-                                }
+                                "description": {}
                             }
                         },
                         "edition": false,
@@ -249,49 +247,31 @@
             "funding": {
                 "fundingPeriod": {
                     "allocation": {
-                        "amount": false,
+                        "amount": {},
                         "currency": false,
                         "sourceAllocationId": false,
-                        "source": false,
+                        "source": {},
                         "recipient": false,
                         "otherContacts": {
-                            "role": false,
-                            "contacts": false
+                            "role": {},
+                            "contacts": {}
                         },
                         "matching": false,
                         "comment": false,
-                        "onlineResource": {
-                            "name": false,
-                            "url": false,
-                            "protocol": false,
-                            "description": false,
-                            "onlineFunction": false,
-                            "applicationProfile": false,
-                            "protocolRequest": false
-                        }
+                        "onlineResource": false
                     },
                     "description": false,
                     "timePeriod": {
                         "dateRange": {
-                            "start": false,
-                            "end": false,
+                            "start": {},
+                            "end": {},
                             "fiscalyear": false
                         },
                         "identifier": false,
                         "description": false,
                         "periodName": false,
-                        "interval": {
-                            "intervalAmount": false,
-                            "units": false
-                        },
-                        "duration": {
-                            "years": false,
-                            "months": false,
-                            "days": false,
-                            "hours": false,
-                            "minutes": false,
-                            "seconds": false
-                        }
+                        "interval": false,
+                        "duration": false
                     }
                 }
             }
@@ -305,6 +285,31 @@
                 "title": "Main",
                 "target": "record.show.edit.main",
                 "tip": "Tool tip for main"
+            },
+            {
+                "title": "Keywords",
+                "target": "record.show.edit.keywords",
+                "tip": "Tool tip for keywords"
+            },
+            {
+                "title": "Extent",
+                "target": "record.show.edit.extent",
+                "tip": "Tool tip for extent"
+            },
+            {
+                "title": "Associated",
+                "target": "record.show.edit.associated",
+                "tip": "Tool tip for associated"
+            },
+            {
+                "title": "Documents",
+                "target": "record.show.edit.documents",
+                "tip": "Tool tip for documents"
+            },
+            {
+                "title": "Funding",
+                "target": "record.show.edit.funding",
+                "tip": "Tool tip for funding"
             }
         ]
     }
