@@ -98,7 +98,7 @@
                         "fiscalyear": false
                     },
                     "identifier": false,
-                    "description": false,
+                    "description": {},
                     "periodName": false,
                     "interval": false,
                     "duration": false
