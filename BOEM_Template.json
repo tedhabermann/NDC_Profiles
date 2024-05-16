@@ -4,8 +4,8 @@
     "alternateId": [
         "BOEM"
     ],
-    "title": "mdEditor Profile for BOEM Conducting Entity Metadata",
-    "description": "mdEditor Profile for BOEM Conducting Entity Metadata",
+    "title": "mdEditor Profile for BOEM Template",
+    "description": "The BOEM template includes metadata created by BOEM as boilerplate, ie content included in all records. It is used as a starter for BOEM metadata.",
     "version": "0.0.1",
     "components": {
         "record": {
