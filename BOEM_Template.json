@@ -150,7 +150,9 @@
                     "containsData": {}
                 }
             },
-            "spatial": false,
+            "spatial": {
+                "spatialResolution": false
+            },
             "lineage": false,
             "taxonomy": false,
             "distribution": false,
