@@ -106,170 +106,171 @@
                 "credit": false
             },
             "metadata": {
-                "basicInformation": {
-                    "metadataStatus": false
-                },
-                "metadataIdentifier": {
-                    "namespace": false,
-                    "version": false,
-                    "description": false,
-                    "authority": false
-                },
-                "parentMetadata": false,
-                "onlineResource": false,
-                "repositories": false,
-                "maintenance": false,
-                "alternateMetadataReference": false
-            },
-            "keywords": false,
-            "extent": false,
-            "spatial": {
-                "spatialResolution": false,
-                "rasterDescription": false
-            },
-            "lineage": false,
-            "taxonomy": false,
-            "distribution": false,
-            "constraints": false,
-            "associated": {
-                "associationType": {},
-                "initiativeType": false,
-                "resourceCitation": {
-                    "basicInformation": {
-                        "title": {},
-                        "alternateTitle": false,
-                        "dates": {
-                            "dateItem": {
-                                "date": {},
-                                "dateType": {},
-                                "description": {}
-                            }
-                        },
-                        "edition": false,
-                        "presentationForm": false
+                "metadataInfo": {
+                    "metadataStatus": {},
+                    "metadataIdentifier": {
+                        "namespace": {},
+                        "version": {},
+                        "description": {},
+                        "authority": {}
                     },
-                    "identifier": {},
-                    "responsibleParty": {
-                        "role": {},
-                        "contacts": {}
-                    },
-                    "onlineResource": {
-                        "name": {},
-                        "url": {},
-                        "protocol": false,
-                        "description": false,
-                        "onlineFunction": false,
-                        "applicationProfile": false,
-                        "protocolRequest": false
-                    },
-                    "identifierSimple": false,
-                    "identifierShort": false,
-                    "series": false,
-                    "otherCitationDetails": false,
-                    "graphic": false
-                },
-                "resourceType": false,
-                "metadataCitation": false
-            },
-            "documents": {
-                "resourceType": {
-                    "resourceType": {},
-                    "name": {}
-                },
-                "citation": {
-                    "basicInformation": {
-                        "title": {},
-                        "alternateTitle": false,
-                        "dates": {
-                            "dateItem": {
-                                "date": {},
-                                "dateType": {},
-                                "description": {}
-                            }
-                        },
-                        "edition": false,
-                        "presentationForm": false
-                    },
-                    "responsibleParty": {
-                        "role": false,
-                        "contacts": false
-                    },
+                    "parentMetadata": false,
                     "onlineResource": false,
-                    "identifier": {},
-                    "identifierSimple": false,
-                    "identifierShort": false,
-                    "series": false,
-                    "otherCitationDetails": false,
-                    "graphic": false
-                }
-            },
-            "funding": {
-                "fundingPeriod": {
-                    "allocation": {
-                        "amount": {},
-                        "currency": false,
-                        "sourceAllocationId": false,
-                        "source": {},
-                        "recipient": false,
-                        "otherContacts": {
-                            "role": {},
-                            "contacts": {}
-                        },
-                        "matching": false,
-                        "comment": false,
-                        "onlineResource": false
+                    "repositories": false,
+                    "maintenance": false,
+                    "alternateMetadataReference": false
+                },
+                "resourceInfo": {
+                    "keyword": false,
+                    "spatialReferenceSystem": {
+                        "spatialResolution": false,
+                        "rasterDescription": false
                     },
-                    "description": false,
-                    "timePeriod": {
-                        "dateRange": {
-                            "start": {},
-                            "end": {},
-                            "fiscalyear": false
+                    "extent": false,
+                    "lineage": false,
+                    "taxonomy": false,
+                    "distribution": false,
+                    "constraints": false,
+                    "associated": {
+                        "associationType": {},
+                        "initiativeType": false,
+                        "resourceCitation": {
+                            "basicInformation": {
+                                "title": {},
+                                "alternateTitle": false,
+                                "dates": {
+                                    "dateItem": {
+                                        "date": {},
+                                        "dateType": {},
+                                        "description": {}
+                                    }
+                                },
+                                "edition": false,
+                                "presentationForm": false
+                            },
+                            "identifier": {},
+                            "responsibleParty": {
+                                "role": {},
+                                "contacts": {}
+                            },
+                            "onlineResource": {
+                                "name": {},
+                                "url": {},
+                                "protocol": false,
+                                "description": false,
+                                "onlineFunction": false,
+                                "applicationProfile": false,
+                                "protocolRequest": false
+                            },
+                            "identifierSimple": false,
+                            "identifierShort": false,
+                            "series": false,
+                            "otherCitationDetails": false,
+                            "graphic": false
                         },
-                        "identifier": false,
-                        "description": false,
-                        "periodName": false,
-                        "interval": false,
-                        "duration": false
+                        "resourceType": false,
+                        "metadataCitation": false
+                    },
+                    "documents": {
+                        "resourceType": {
+                            "resourceType": {},
+                            "name": {}
+                        },
+                        "citation": {
+                            "basicInformation": {
+                                "title": {},
+                                "alternateTitle": false,
+                                "dates": {
+                                    "dateItem": {
+                                        "date": {},
+                                        "dateType": {},
+                                        "description": {}
+                                    }
+                                },
+                                "edition": false,
+                                "presentationForm": false
+                            },
+                            "responsibleParty": {
+                                "role": false,
+                                "contacts": false
+                            },
+                            "onlineResource": false,
+                            "identifier": {},
+                            "identifierSimple": false,
+                            "identifierShort": false,
+                            "series": false,
+                            "otherCitationDetails": false,
+                            "graphic": false
+                        }
+                    },
+                    "funding": {
+                        "fundingPeriod": {
+                            "allocation": {
+                                "amount": {},
+                                "currency": false,
+                                "sourceAllocationId": false,
+                                "source": {},
+                                "recipient": false,
+                                "otherContacts": {
+                                    "role": {},
+                                    "contacts": {}
+                                },
+                                "matching": false,
+                                "comment": false,
+                                "onlineResource": false
+                            },
+                            "description": false,
+                            "timePeriod": {
+                                "dateRange": {
+                                    "start": {},
+                                    "end": {},
+                                    "fiscalyear": false
+                                },
+                                "identifier": false,
+                                "description": false,
+                                "periodName": false,
+                                "interval": false,
+                                "duration": false
+                            }
+                        }
                     }
-                }
+                },
+                "contact": {},
+                "dictionary": false
+            },
+            "nav": {
+                "record": [
+                    {
+                        "title": "Main",
+                        "target": "record.show.edit.main",
+                        "tip": "Tool tip for main"
+                    },
+                    {
+                        "title": "Metadata",
+                        "target": "record.show.edit.metadata",
+                        "tip": "Information about the metadata for the resource."
+                    },
+                    {
+                        "title": "Spatial",
+                        "target": "record.show.edit.spatial",
+                        "tip": "Information concerning the spatial attributes of the resource."
+                    },
+                    {
+                        "title": "Associated",
+                        "target": "record.show.edit.associated",
+                        "tip": "Tool tip for associated"
+                    },
+                    {
+                        "title": "Documents",
+                        "target": "record.show.edit.documents",
+                        "tip": "Tool tip for documents"
+                    },
+                    {
+                        "title": "Funding",
+                        "target": "record.show.edit.funding",
+                        "tip": "Tool tip for funding"
+                    }
+                ]
             }
-        },
-        "contact": {},
-        "dictionary": false
-    },
-    "nav": {
-        "record": [
-            {
-                "title": "Main",
-                "target": "record.show.edit.main",
-                "tip": "Tool tip for main"
-            },
-            {
-                "title": "Metadata",
-                "target": "record.show.edit.metadata",
-                "tip": "Information about the metadata for the resource."
-            },
-            {
-                "title": "Spatial",
-                "target": "record.show.edit.spatial",
-                "tip": "Information concerning the spatial attributes of the resource."
-            },
-            {
-                "title": "Associated",
-                "target": "record.show.edit.associated",
-                "tip": "Tool tip for associated"
-            },
-            {
-                "title": "Documents",
-                "target": "record.show.edit.documents",
-                "tip": "Tool tip for documents"
-            },
-            {
-                "title": "Funding",
-                "target": "record.show.edit.funding",
-                "tip": "Tool tip for funding"
-            }
-        ]
+        }
     }
-}
