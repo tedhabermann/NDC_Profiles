@@ -137,19 +137,7 @@
                     "identifier": {}
                 }
             },
-            "extent": {
-                "description": {},
-                "geographic": {
-                    "bbox": {
-                        "north": {},
-                        "east": {},
-                        "south": {},
-                        "west": {}
-                    },
-                    "description": {},
-                    "containsData": {}
-                }
-            },
+            "extent": false,
             "spatial": {
                 "spatialResolution": false
             },
