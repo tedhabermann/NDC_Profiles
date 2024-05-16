@@ -270,6 +270,11 @@
                 "tip": "Tool tip for main"
             },
             {
+                "title": "Metadata",
+                "target": "record.show.edit.metadata",
+                "tip": "Information about the metadata for the resource."
+            },        
+            {
                 "title": "Keywords",
                 "target": "record.show.edit.keywords",
                 "tip": "Tool tip for keywords"
