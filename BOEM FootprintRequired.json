@@ -1,0 +1,316 @@
+{
+    "identifier": "BOEM",
+    "namespace": "gov.usgs.ndc",
+    "alternateId": [
+        "BOEM"
+    ],
+    "title": "mdEditor Profile for BOEM Conducting Entity Metadata",
+    "description": "mdEditor Profile for BOEM Conducting Entity Metadata",
+    "version": "0.0.1",
+    "components": {
+        "record": {
+            "main": {
+                "basicInformation": {
+                    "recordId": {},
+                    "title": {},
+                    "status": {},
+                    "defaultLocale": {
+                        "language": {},
+                        "characterSet": {},
+                        "country": {}
+                    }
+                },
+                "resourceType": {
+                    "resourceType": {},
+                    "name": {}
+                },
+                "pointOfContact": {},
+                "citation": {
+                    "basicInformation": {
+                        "title": {},
+                        "alternateTitle": false,
+                        "dates": {
+                            "dateItem": {
+                                "date": {},
+                                "dateType": {},
+                                "description": {}
+                            }
+                        },
+                        "edition": false,
+                        "presentationForm": false
+                    },
+                    "responsibleParty": {
+                        "role": {},
+                        "contacts": {}
+                    },
+                    "onlineResource": false,
+                    "identifier": {
+                        "identifier": {},
+                        "namespace": false,
+                        "version": {},
+                        "description": {},
+                        "authority": {
+                            "basicInformation": {
+                                "title": false,
+                                "alternateTitle": false,
+                                "date": false,
+                                "dateArray": {
+                                    "date": false,
+                                    "dateType": false,
+                                    "description": false
+                                }
+                            },
+                            "responsibleParty": {
+                                "role": false,
+                                "contacts": false
+                            },
+                            "onlineResource": {
+                                "name": false,
+                                "url": false,
+                                "protocol": false,
+                                "description": false,
+                                "onlineFunction": false,
+                                "applicationProfile": false,
+                                "protocolRequest": false
+                            },
+                            "identifier": {},
+                            "identifierSimple": false,
+                            "identifierShort": false
+                        }
+                    },
+                    "identifierSimple": false,
+                    "identifierShort": false,
+                    "series": false,
+                    "otherCitationDetails": false,
+                    "graphic": false
+                },
+                "description": {
+                    "abstract": {},
+                    "shortAbstract": false
+                },
+                "purpose": false,
+                "supplementalInfo": false,
+                "environmentDescription": false,
+                "timePeriod": {
+                    "dateRange": {
+                        "start": {},
+                        "end": {},
+                        "fiscalyear": false
+                    },
+                    "identifier": false,
+                    "description": {},
+                    "periodName": false,
+                    "interval": false,
+                    "duration": false
+                },
+                "maintenance": false,
+                "graphicOverview": false,
+                "credit": false
+            },
+            "metadata": {
+                "basicInformation": {
+                    "metadataStatus": false,
+                    "metadataDates": {
+                        "dateItem": {
+                            "date": {},
+                            "dateType": {},
+                            "description": {}
+                        }
+                    }
+                },
+                "metadataContacts": {
+                    "role": {},
+                    "contacts": {}
+                },
+                "metadataIdentifier": {
+                    "identifier": {},
+                    "namespace": false,
+                    "version": false,
+                    "description": false,
+                    "authority": false
+                },
+                "parentMetadata": false,
+                "onlineResource": false,
+                "repositories": false,
+                "maintenance": false,
+                "defaultLocale": {
+                    "language": {},
+                    "characterSet": {},
+                    "country": {}
+                },
+                "alternateMetadataReference": false
+            },
+            "keywords": {
+                "citation": {
+                    "title": {},
+                    "date": false,
+                    "dateType": false,
+                    "keywordType": {},
+                    "edition": false,
+                    "onlineResourceUrl": false
+                },
+                "keyword": {
+                    "keyword": {},
+                    "identifier": {}
+                }
+            },
+            "extent": {
+                "description": {},
+                "geographic": {
+                    "bbox": {
+                        "north": {},
+                        "east": {},
+                        "south": {},
+                        "west": {}
+                    },
+                    "description": {},
+                    "containsData": {}
+                }
+            },
+            "spatial": false,
+            "lineage": false,
+            "taxonomy": false,
+            "distribution": false,
+            "constraints": false,
+            "associated": {
+                "associationType": {},
+                "initiativeType": false,
+                "resourceCitation": {
+                    "basicInformation": {
+                        "title": {},
+                        "alternateTitle": false,
+                        "dates": {
+                            "dateItem": {
+                                "date": {},
+                                "dateType": {},
+                                "description": {}
+                            }
+                        },
+                        "edition": false,
+                        "presentationForm": false
+                    },
+                    "identifier": {},
+                    "responsibleParty": {
+                        "role": {},
+                        "contacts": {}
+                    },
+                    "onlineResource": {
+                        "name": {},
+                        "url": {},
+                        "protocol": false,
+                        "description": false,
+                        "onlineFunction": false,
+                        "applicationProfile": false,
+                        "protocolRequest": false
+                    },
+                    "identifierSimple": false,
+                    "identifierShort": false,
+                    "series": false,
+                    "otherCitationDetails": false,
+                    "graphic": false
+                },
+                "resourceType": false,
+                "metadataCitation": false
+            },
+            "documents": {
+                "resourceType": {
+                    "resourceType": {},
+                    "name": {}
+                },
+                "citation": {
+                    "basicInformation": {
+                        "title": {},
+                        "alternateTitle": false,
+                        "dates": {
+                            "dateItem": {
+                                "date": {},
+                                "dateType": {},
+                                "description": {}
+                            }
+                        },
+                        "edition": false,
+                        "presentationForm": false
+                    },
+                    "responsibleParty": {
+                        "role": false,
+                        "contacts": false
+                    },
+                    "onlineResource": false,
+                    "identifier": {},
+                    "identifierSimple": false,
+                    "identifierShort": false,
+                    "series": false,
+                    "otherCitationDetails": false,
+                    "graphic": false
+                }
+            },
+            "funding": {
+                "fundingPeriod": {
+                    "allocation": {
+                        "amount": {},
+                        "currency": false,
+                        "sourceAllocationId": false,
+                        "source": {},
+                        "recipient": false,
+                        "otherContacts": {
+                            "role": {},
+                            "contacts": {}
+                        },
+                        "matching": false,
+                        "comment": false,
+                        "onlineResource": false
+                    },
+                    "description": false,
+                    "timePeriod": {
+                        "dateRange": {
+                            "start": {},
+                            "end": {},
+                            "fiscalyear": false
+                        },
+                        "identifier": false,
+                        "description": false,
+                        "periodName": false,
+                        "interval": false,
+                        "duration": false
+                    }
+                }
+            }
+        },
+        "contact": {},
+        "dictionary": false
+    },
+    "nav": {
+        "record": [
+            {
+                "title": "Main",
+                "target": "record.show.edit.main",
+                "tip": "Tool tip for main"
+            },
+            {
+                "title": "Keywords",
+                "target": "record.show.edit.keywords",
+                "tip": "Tool tip for keywords"
+            },
+            {
+                "title": "Extent",
+                "target": "record.show.edit.extent",
+                "tip": "Tool tip for extent"
+            },
+            {
+                "title": "Associated",
+                "target": "record.show.edit.associated",
+                "tip": "Tool tip for associated"
+            },
+            {
+                "title": "Documents",
+                "target": "record.show.edit.documents",
+                "tip": "Tool tip for documents"
+            },
+            {
+                "title": "Funding",
+                "target": "record.show.edit.funding",
+                "tip": "Tool tip for funding"
+            }
+        ]
+    }
+}
