@@ -282,11 +282,6 @@
                 "tip": "Tool tip for keywords"
             },
             {
-                "title": "Extent",
-                "target": "record.show.edit.extent",
-                "tip": "Tool tip for extent"
-            },
-            {
                 "title": "Spatial",
                 "target": "record.show.edit.spatial",
                 "tip": "Information concerning the spatial attributes of the resource."
