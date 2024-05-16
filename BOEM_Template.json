@@ -93,8 +93,6 @@
                 "environmentDescription": false,
                 "timePeriod": {
                     "dateRange": {
-                        "start": {},
-                        "end": {},
                         "fiscalyear": false
                     },
                     "identifier": false,
@@ -123,6 +121,8 @@
                 "maintenance": false,
                 "alternateMetadataReference": false
             },
+            "keywords": false,
+            "extent": false,
             "spatial": {
                 "spatialResolution": false,
                 "rasterDescription": false
