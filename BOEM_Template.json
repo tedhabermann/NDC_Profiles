@@ -289,7 +289,7 @@
             {
                 "title": "Spatial",
                 "target": "record.show.edit.spatial",
-                "tip": "Tool tip for extent"
+                "tip": "Information concerning the spatial attributes of the resource."
             },
             {
                 "title": "Associated",
