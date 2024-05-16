@@ -1,8 +1,8 @@
 {
-    "identifier": "BOEM",
+    "identifier": "BOEM_Template",
     "namespace": "gov.usgs.ndc",
     "alternateId": [
-        "BOEM"
+        "BOEM_Template"
     ],
     "title": "mdEditor Profile for BOEM Template",
     "description": "The BOEM template includes metadata created by BOEM as boilerplate, ie content included in all records. It is used as a starter for BOEM metadata.",
