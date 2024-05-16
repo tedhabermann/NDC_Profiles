@@ -109,21 +109,9 @@
             },
             "metadata": {
                 "basicInformation": {
-                    "metadataStatus": false,
-                    "metadataDates": {
-                        "dateItem": {
-                            "date": {},
-                            "dateType": {},
-                            "description": {}
-                        }
-                    }
-                },
-                "metadataContacts": {
-                    "role": {},
-                    "contacts": {}
+                    "metadataStatus": false
                 },
                 "metadataIdentifier": {
-                    "identifier": {},
                     "namespace": false,
                     "version": false,
                     "description": false,
@@ -133,11 +121,6 @@
                 "onlineResource": false,
                 "repositories": false,
                 "maintenance": false,
-                "defaultLocale": {
-                    "language": {},
-                    "characterSet": {},
-                    "country": {}
-                },
                 "alternateMetadataReference": false
             },
             "keywords": {
